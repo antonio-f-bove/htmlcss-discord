@@ -6,12 +6,12 @@
 }
 
 .container {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
 }
 
 /* clearfix */
-.clrfx::after {
+.clrfx::after, .row::after {
     display: table;
     content: "";
     clear: both;
@@ -107,4 +107,23 @@ nav ul a {
     line-height: 35px;
     padding: 5px 15px;
     border-radius: 20px;
+}
+
+.img-container {
+    width: 60%;
+    padding: 60px 10px 60px 0;
+}
+.img-container img {
+    width: 100%;
+}
+
+.row .text-container{
+    width: 40%;
+    padding-left: 30px;
+    padding: 75px;
+}
+
+.row .text-container h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
 }
